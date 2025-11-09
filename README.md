@@ -2,7 +2,7 @@
 
 ## Dashboard Overview
 
-This repository contains documentation and analysis for BigQuery usage monitoring dashboard. The dashboard provides insights into query costs, user behavior, and usage patterns across the team.
+This repository contains a documentation and analysis for BigQuery usage monitoring dashboard. The dashboard provides insights into query costs, user behavior, and usage patterns across the team, to drive cost awareness across team members.
 
 ---
 
