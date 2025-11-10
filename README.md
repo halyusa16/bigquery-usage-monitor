@@ -2,7 +2,7 @@
 
 ## Dashboard Overview
 
-This repository contains a documentation and analysis for BigQuery usage monitoring dashboard. The dashboard provides insights into query costs, user behavior, and usage patterns across the team, to drive cost awareness across team members.
+This repository contains a documentation and analysis for BigQuery usage monitoring dashboard. There was a time where our BigQuery reached the query usage limit, and the whole data division was down, because it wont run any query for some times. So, this dashboard provides insights into query costs, user behavior, and usage patterns across the team, to drive cost awareness across team members.
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains a documentation and analysis for BigQuery usage monitor
 
 ![Total Q3 Cost KPI](images/total-q3-cost.png)
 
-The total Q3 cost metric displays the aggregate spending on BigQuery queries for the entire quarter. This KPI provides a high-level view of overall expenditure and serves as the primary indicator of our BigQuery cost footprint during the reporting period.
+The total Q3 cost metric displays the aggregate spending on BigQuery queries for the entire quarter. This KPI provides a high-level view of overall expenses and serves as the primary indicator of our BigQuery cost during the reporting period.
 
 ### Top User Cost
 
@@ -24,7 +24,7 @@ The top user cost metric highlights the highest individual contributor to BigQue
 
 ## Usage Visualizations
 
-### 1. Top Users by Cost
+### 1. Users Usage by Cost
 
 ![Top Users by Cost](images/top-users-by-cost.png)
 
@@ -34,13 +34,13 @@ This horizontal bar chart ranks users by their estimated BigQuery costs, with co
 
 ![Team Usage Summary](images/team-usage-summary.png)
 
-This stacked horizontal bar chart breaks down estimated costs by role and month of query execution. The visualization provides insights into how different team roles (data engineers, data scientists, data analysts) contribute to overall costs and how usage patterns have evolved across July, August, and September.
+This stacked horizontal bar chart breaks down estimated costs by role inside the team, and month of query execution. The visualization provides insights into how different team roles (data engineers, data scientists, data analysts) contribute to overall costs and how usage patterns have evolved across the quarter.
 
 ### 3. Weekly Cost Trend
 
 ![Weekly Cost Trend](images/weekly-cost-trend.png)
 
-This line chart displays the estimated BigQuery costs over a 14-week period from Week 27 to Week 40. The trend analysis reveals cost patterns over time, highlighting periods of increased or decreased usage and helping identify any anomalies or significant changes in spending behavior.
+This line chart displays the estimated BigQuery costs over a 14-week period from Week 27 to Week 40 in Q3 of the year. The trend analysis reveals cost patterns over time, highlighting periods of increased or decreased usage and helping identify any anomalies or significant changes in spending behavior.
 
 ### 4. Peak Usage Day (Daily Usage)
 
@@ -50,8 +50,3 @@ This bar chart shows the estimated costs for each day of the week, identifying w
 
 ---
 
-## Insights and Recommendations
-
-*[This section can be populated with specific findings and actionable recommendations based on the dashboard data]*
-
----
